@@ -107,20 +107,5 @@ The backend will start on `http://localhost:5000`.
 - Middleware ensures users can only manage their own reservations.
 - **Role-based access control** (RBAC) implemented for admin actions.
 
-## 🚀 Future Enhancements
-- Implement **payment integration** for reservations.
-- Introduce **seat selection visual UI** for better user experience.
-- WebSocket support for **real-time seat availability updates**.
 
-## 🤝 Contributing
-Contributions are welcome! To contribute:
-1. Fork the repo.
-2. Create a feature branch (`feature/new-feature`).
-3. Commit your changes.
-4. Push and open a pull request.
 
-## 📜 License
-This project is licensed under the MIT License.
-
----
-### 🎬 Ready to make your movie reservations seamless? Start building now!
