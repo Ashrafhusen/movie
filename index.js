@@ -32,6 +32,12 @@ app.use('/api/auth' , authRoutes);
 const movieRoutes = require("./routes/movieRoutes")
 app.use('/api/movies' , movieRoutes)
 
+const showtimeRoutes = require('./routes/showtimeRoutes')
+app.use('/api/showtimes' , showtimeRoutes)
+
+
+
+
 
 app.use((err , req , res , next) => {
     console.log(err.stack)
@@ -39,6 +45,7 @@ app.use((err , req , res , next) => {
 
 
 })
+
 
 
 const PORT = process.env.PORT || 5000;
