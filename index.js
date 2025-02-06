@@ -36,6 +36,13 @@ const showtimeRoutes = require('./routes/showtimeRoutes')
 app.use('/api/showtimes' , showtimeRoutes)
 
 
+const seatRoutes = require('./routes/seatRoutes')
+app.use('/api/seats' , seatRoutes)
+
+const reservationRoutes = require('./routes/reservationRoutes')
+app.use('/api/reservations' , reservationRoutes)
+
+
 
 
 
