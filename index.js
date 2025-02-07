@@ -43,7 +43,8 @@ const reservationRoutes = require('./routes/reservationRoutes')
 app.use('/api/reservations' , reservationRoutes)
 
 
-
+const adminRoutes = require('./routes/adminRoutes')
+app.use('/api/admin' , adminRoutes);
 
 
 app.use((err , req , res , next) => {
